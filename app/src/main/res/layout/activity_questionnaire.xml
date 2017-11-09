@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="com.example.felipe.androidexperiments.QuestionnaireActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView android:id="@+id/text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/distance_close"
+
+
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textSize="30sp"
+
+                android:text="@string/title_questionnaire" />
+            <TextView android:id="@+id/text_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="16sp"
+
+                android:text="@string/subtitle_questionnaire" />
+
+            <TextView android:id="@+id/view_quest1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/distance_medium"
+                android:layout_gravity="center_horizontal"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+
+                android:text="@string/question01" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="3"
+
+                android:inputType="number"
+                android:maxLines="1"/>
+
+            <TextView android:id="@+id/view_quest2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/distance_medium"
+
+                android:layout_gravity="center_horizontal"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+
+                android:text="@string/question02" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="45sp"
+                android:entries="@array/spinner_list"
+
+                android:prompt="@string/spinner_prompt"/>
+
+            <TextView android:id="@+id/view_quest3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/distance_medium"
+
+                android:layout_gravity="center_horizontal"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+
+                android:text="@string/question03" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="45sp"
+                android:entries="@array/spinner_list"
+                android:prompt="@string/spinner_prompt" />
+
+            <TextView android:id="@+id/view_quest4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/distance_medium"
+
+                android:layout_gravity="center_horizontal"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+
+                android:text="@string/question04" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="match_parent"
+                android:layout_height="45sp"
+                android:entries="@array/spinner_list"
+                android:prompt="@string/spinner_prompt"/>
+
+            <TextView android:id="@+id/view_quest5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/distance_medium"
+
+                android:layout_gravity="center_horizontal"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+
+                android:text="@string/question05" />
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView android:id="@+id/view_quest6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/distance_medium"
+
+                android:layout_gravity="center_horizontal"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+
+                android:text="@string/question06" />
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView android:id="@+id/view_quest7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/distance_medium"
+
+                android:layout_gravity="center_horizontal"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+
+                android:text="@string/question07" />
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--###################################-->
+
+            <ProgressBar android:id="@+id/indeterminateBar"
+
+                style="?android:attr/progressBarStyle"
+                android:indeterminateBehavior="repeat"
+                android:indeterminate="true"
+                android:visibility="gone"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/button_save1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingEnd="50dp"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:paddingStart="50dp"
+                android:layout_marginBottom="@dimen/distance_medium"
+
+                android:text="Salvar" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

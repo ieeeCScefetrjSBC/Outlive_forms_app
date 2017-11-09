@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@android:color/holo_blue_dark</item>
+        <item name="android:colorBackground">@android:color/black</item>
+    </style>
+
+    <style name="Theme.Outlive.Dark" parent="Theme.AppCompat.NoActionBar" >
+        <item name="colorAccent">@android:color/holo_blue_dark</item>
+        <item name="android:colorBackground">#FF303030</item>
+    </style>
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/distance_close"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.felipe.androidexperiments.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/otlive_logo"
+
+        android:layout_marginTop="@dimen/distance_close"
+        android:layout_marginBottom="@dimen/distance_far"/>
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+
+        android:paddingEnd="@dimen/distance_close"
+        android:paddingStart="@dimen/distance_close"
+        android:paddingLeft="@dimen/distance_close"
+        android:paddingRight="@dimen/distance_close"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/custom_txt_bg"
+        android:textAllCaps="false"
+        android:text="@string/button_start"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/cs_logo" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ramo_branco_semfundo"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:padding="@dimen/distance_medium"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/wolfbyte_branco_semfundo_semlegenda"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:padding="@dimen/distance_medium"/>
+
+    </LinearLayout>
+</LinearLayout>

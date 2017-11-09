@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- GENERAL -->
+    <string name="app_name">Outlive: The Final Questionnaire</string>
+    <!-- DIMENSIONS -->
+    <dimen name="distance_close">10dp</dimen>
+    <dimen name="distance_medium">30dp</dimen>
+    <dimen name="distance_far">50dp</dimen>
+
+    <!-- MAIN ACTIVITY -->
+    <string name="button_start">Iniciar Questionário</string>
+
+
+    <!-- QUESTIONNAIRE ACTIVITY -->
+    <!-- TITLES AND SUBTITLES -->
+    <string name="title_questionnaire">Questionário</string>
+    <string name="subtitle_questionnaire">Todos os campos são obrigatórios. \nAo finalizar, clique em salvar para confirmar.</string>
+    <!-- QUESTIONS -->
+    <string name="question01">1. Sua idade:</string>
+    <string name="question02">2. Nível de diversão:</string>
+    <string name="question03">3. Nível de dificuldade:</string>
+    <string name="question04">4. Qual seu nível de interesse em jogar mais vezes?</string>
+    <string name="question05">5. O que você MAIS gostou no jogo?</string>
+    <string name="question06">6. O que você MENOS gostou no jogo?</string>
+    <string name="question07">7. O que você mudaria para tornar o jogo melhor?</string>
+    <!-- SPINNER -->
+    <string name="spinner_prompt">Selecione uma resposta</string>
+    <string-array name="spinner_list">
+        <item>1. muito baixo</item>
+        <item>2. baixo</item>
+        <item>3. médio</item>
+        <item>4. alto</item>
+        <item>5. muito alto</item>
+    </string-array>
+
+</resources>

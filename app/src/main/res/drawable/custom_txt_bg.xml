@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="@dimen/distance_medium">
+        <shape  android:shape="line">
+            <stroke
+                android:width="2dp"
+                android:color="@android:color/white"/>
+
+        </shape>
+    </item>
+    <item android:bottom="@dimen/distance_medium">
+        <shape  android:shape="line">
+            <stroke
+                android:width="2dp"
+                android:color="@android:color/white"/>
+
+        </shape>
+    </item>
+</layer-list>
